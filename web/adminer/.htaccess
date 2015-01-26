@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Databaze odevzdani"
+AuthUserFile /absolutni/cesta/k/souboru/.htpasswd
+Require valid-user

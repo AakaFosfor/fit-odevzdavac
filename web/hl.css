@@ -1,0 +1,65 @@
+body {
+	padding: 0px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: #ffa800;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p:first-letter {
+	padding-left: 15px;
+}
+
+table {
+	margin: auto;
+	text-align: center;
+}
+
+table tr td {
+	border: solid black 1px;
+	padding: 7px;
+	font-size: 12px;
+}
+
+table tr th {
+	padding: 5px;
+	font-size: 13px;
+}
+
+div#message {
+	font-weight: bold;
+	margin: auto;
+	margin-top: 20px;
+	padding: 7px;
+	text-align: center;
+	width: 50%;
+}
+
+div.ok#message {
+	background-color: #ccff99;
+	border: 1px solid #ccff00;
+	color: green;
+}
+
+div.ko#message {
+	background-color: #ffcccc;
+	border: 1px solid #ff9900;
+	color: red;
+}
+
+tr#cvicici-info a {
+	display: block;
+}
